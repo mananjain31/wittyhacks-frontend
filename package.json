@@ -72,5 +72,5 @@
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.1"
   },
-  "proxy": "http://localhost:8000"
+  "proxy": "https://backend-wittyhacks-production.up.railway.app/"
 }

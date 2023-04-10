@@ -7,6 +7,14 @@ import Aman from "assets/aman.jpeg";
 
 const team = [
   {
+    name: "Manan Jain",
+    role: "Frontend",
+    image: Manan,
+    github: "https://github.com/mananjain31/",
+    linkedin: "https://github.com/mananjain31/",
+    instagram: "https://github.com/mananjain31/",
+  },
+  {
     name: "Divyanshu Gour",
     role: "Machine Learning",
     image: Divyanshu,
@@ -30,14 +38,6 @@ const team = [
     linkedin: "https://github.com/mananjain31/",
     instagram: "https://github.com/mananjain31/",
   },
-  {
-    name: "Manan Jain",
-    role: "Frontend",
-    image: Manan,
-    github: "https://github.com/mananjain31/",
-    linkedin: "https://github.com/mananjain31/",
-    instagram: "https://github.com/mananjain31/",
-  },
 ];
 
 const OurTeam = () => {
@@ -57,7 +57,10 @@ const OurTeam = () => {
       <div className="text-left flex flex-wrap justify-evenly mt-10 gap-2">
         {team.map((item, index) => {
           return (
-            <div key={index} className="flex gap-6 w-full md:w-1/3 py-5">
+            <div
+              key={index}
+              className="flex gap-6 w-full md:w-1/3 py-5 flex-wrap"
+            >
               <img
                 src={item.image}
                 alt=""

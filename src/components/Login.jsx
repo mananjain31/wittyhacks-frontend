@@ -42,7 +42,7 @@ const Login = () => {
             name="credentials"
             value={credentials}
             onChange={(e) => setCredentials(e.target.value)}
-            className="w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
+            className="sm:w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
             placeholder="example@gmail.com or 7894556123"
           />
         </div>
@@ -55,7 +55,7 @@ const Login = () => {
             placeholder="Enter Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
+            className="sm:w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
           />
         </div>
 

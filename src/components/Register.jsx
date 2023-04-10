@@ -151,7 +151,7 @@ const Register = () => {
               placeholder="Enter your name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
+              className="sm:w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
             />
           </div>
           <div className="flex flex-col mx-3 ml-auto">
@@ -161,7 +161,7 @@ const Register = () => {
               placeholder="Enter your contact"
               value={contact}
               onChange={(e) => setContact(e.target.value)}
-              className="w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
+              className="sm:w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
             />
           </div>
           <div className="flex flex-col mx-3 ml-auto">
@@ -171,7 +171,7 @@ const Register = () => {
               placeholder="Enter your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
+              className="sm:w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
             />
           </div>
 
@@ -182,7 +182,7 @@ const Register = () => {
               value={pincode}
               placeholder="6 digit pincode"
               onChange={(e) => setPincode(e.target.value)}
-              className="w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
+              className="sm:w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
             />
           </div>
 
@@ -194,7 +194,7 @@ const Register = () => {
               value={password}
               placeholder="Enter your password"
               onChange={(e) => setPassword(e.target.value)}
-              className="w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
+              className="sm:w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
             />
           </div>
           <div className="flex flex-col mx-3 ml-auto">
@@ -205,7 +205,7 @@ const Register = () => {
               placeholder="Confirm your password"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
-              className="w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
+              className="sm:w-80 h-11 rounded-lg bg-slate-100 text-black-600 p-2"
             />
           </div>
           {/* span in both grid col */}

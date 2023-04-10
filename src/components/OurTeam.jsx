@@ -54,12 +54,12 @@ const OurTeam = () => {
           blanditiis expedita consequuntur adipisci.
         </p>
       </div>
-      <div className="text-left flex flex-wrap justify-evenly mt-10 gap-2">
+      <div className="sm:text-left flex flex-wrap sm:justify-evenly mt-10 gap-2 justify-center">
         {team.map((item, index) => {
           return (
             <div
               key={index}
-              className="flex gap-6 w-full md:w-1/3 py-5 flex-wrap"
+              className="flex gap-6 w-full md:w-1/3 py-5 flex-wrap sm:flex-nowrap justify-center items-center sm:justify-stretch sm:items-stretch"
             >
               <img
                 src={item.image}
@@ -67,7 +67,7 @@ const OurTeam = () => {
                 className="w-[200px] object-cover rounded-lg"
               />
               <div className="flex flex-col gap-2">
-                <h3 className="text-3xl">{item.name}</h3>
+                <h3 className="text-2xl sm:text-3xl">{item.name}</h3>
                 <p className="texr-xl font-bold">{item.role}</p>
                 <div className="flex gap-2 text-[#676464] flex-col">
                   <a

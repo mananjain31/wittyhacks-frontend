@@ -36,12 +36,12 @@ const WasteBuddyPage = () => {
   return (
     <div className="h-screen flex flex-col overflow-y-clip">
       <CommongNav />
-      <main className={`${respPX} py-6`}>
-        <h1 className="text-3xl flex gap-2 items-center">
+      <main className={`${respPX} pt-6 pb-4`}>
+        <h1 className="text-2xl sm:text-3xl flex gap-2 items-center">
           <span>Chat with your Waste Buddy</span>
           <div className="text-4xl flex items-center justify-center">💬</div>
         </h1>
-        <p className="text-lg my-4">
+        <p className="sm:text-lg mt-4">
           Ask about your waste related queries and get answers from our waste
           buddy
         </p>
@@ -49,7 +49,7 @@ const WasteBuddyPage = () => {
 
       {/* chat window */}
       <section
-        className={`${respPX} flex-grow flex h-[50%] md:h-[70%] flex-col gap-4 py-4 `}
+        className={`${respPX} flex-grow flex h-[50%] md:h-[70%] flex-col gap-4 pt-2 pb-4 `}
       >
         {/* Chats */}
         <div
